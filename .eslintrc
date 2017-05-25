@@ -1,0 +1,64 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "env": {
+        "node": true
+    },
+    "plugins": [
+        "react"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "arrow-parens": [1, "as-needed", { "requireForBlockBody": true }],
+        "indent": ["error", 4],
+        "max-len": [1, 90, 2, {"ignoreComments": true}],
+        "no-unused-vars": [1],
+        "import/no-unresolved": 0,
+        "import/prefer-default-export": [1],
+        "import/extensions": 0,
+        "no-param-reassign": 0,
+        "react/jsx-indent": [1, 4],
+        "react/jsx-indent-props": [1, 4],
+        "react/prefer-stateless-function": [0, {"ignorePureComponents": true}],
+        "react/prop-types": [1],
+        "react/jsx-space-before-closing": ["warn", "always"],
+        "react/jsx-tag-spacing" : [ "warn", {
+            "closingSlash" : "never",
+            "beforeSelfClosing" : "always",
+            "afterOpening" : "never"
+        }],
+        "jsx-a11y/no-static-element-interactions": [1],
+        "react/jsx-closing-bracket-location": [0],
+        "react/forbid-prop-types": [1, {"forbid": ["any"]}],
+        "react/require-default-props": [1],
+        "react/no-array-index-key": [1]
+    },
+    "globals": {
+        "document": true,
+        "window": true
+    },
+    "class-methods-use-this": ["warn", {
+        "exceptMethods": [
+            "render",
+            "componentWillMount",
+            "componentDidMount",
+            "componentWillReceiveProps",
+            "shouldComponentUpdate",
+            "componentWillUpdate",
+            "componentDidUpdate",
+            "componentWillUnmount"
+        ]
+    }],
+    "import/no-extraneous-dependencies": ["error", {
+        "devDependencies": false,
+        "optionalDependencies": false,
+        "peerDependencies": false
+    }
+    ]
+}
