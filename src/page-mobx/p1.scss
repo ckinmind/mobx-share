@@ -1,0 +1,18 @@
+#p1 {
+    .node circle {
+        cursor: pointer;
+        fill: #fff;
+        stroke: steelblue;
+        stroke-width: 2px;
+    }
+
+    .node text {
+        font-size: 16px;
+    }
+
+    .link {
+        fill: none;
+        stroke: #ccc;
+        stroke-width: 1.5px;
+    }
+}

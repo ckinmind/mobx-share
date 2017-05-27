@@ -1,0 +1,14 @@
+.info-block{
+
+    display: flex;
+    div {
+        text-align: center;
+        background: rgba(0,0,0,0.05);
+        border-radius: 4px;
+        padding: 30px 50px;
+        margin: 20px 10px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+}
