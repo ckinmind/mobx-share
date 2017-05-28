@@ -2,8 +2,8 @@ import React from 'react'
 import {observable, action, autorun, when} from 'mobx'
 import {observer, whyRun} from 'mobx-react'
 import Markdown from '../markdown'
-import './p1.scss'
-import { Button, notification } from 'antd';
+import './style/p1.styl'
+import { Button, notification } from 'antd'
 
 
 let info = `

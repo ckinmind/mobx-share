@@ -2,9 +2,8 @@ import React from 'react'
 import {observable, action, computed, extendObservable} from 'mobx'
 import {observer} from 'mobx-react'
 import Markdown from '../markdown'
-import './p4.scss'
+import './style/p4.styl'
 import { Button, Spin, Switch} from 'antd';
-import _ from 'lodash'
 
 let info = `
 参考资料：[extendObservable](https://github.com/mobxjs/mobx/issues/194)

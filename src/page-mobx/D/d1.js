@@ -1,6 +1,6 @@
 import React from 'react'
 import d3 from '../../v3.lesson/d3'
-import '../p1.scss'
+import '../style/p1.styl'
 
 
 let info = `

@@ -10,4 +10,4 @@ ReactDOM.render(
       <Route />
   </div>,
   document.getElementById('root')
-)
+);

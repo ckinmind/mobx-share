@@ -3,7 +3,7 @@ import {observable, action, computed, extendObservable, toJS, isObservable} from
 import {observer, Observer, componentWillReact, inject, Provider} from 'mobx-react'
 import Markdown from '../markdown'
 import { Table, Badge, Button, notification, Switch} from 'antd';
-import './css/p8.scss'
+//import './css/p8.scss'
 
 let info = `
 \`\`\`js

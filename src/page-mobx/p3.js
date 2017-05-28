@@ -2,7 +2,7 @@ import React from 'react'
 import {observable, action,computed} from 'mobx'
 import {observer} from 'mobx-react'
 import Markdown from '../markdown'
-import './p1.scss'
+import './style/p1.styl'
 import { Button, notification } from 'antd';
 import store3 from './store3'
 
