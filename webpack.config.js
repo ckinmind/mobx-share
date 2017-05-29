@@ -86,6 +86,10 @@ module.exports = {
     module: {
         rules: [
             {
+              test: /\.css$/,
+              use:['style','css']
+            },
+            {
                 test: /\.js$/,
                 use: ["babel?cacheDirectory"],
                 // use: ["babel", "eslint"],

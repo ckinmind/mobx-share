@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import Prism from 'prismjs'
-//import 'prismjs/themes/prism-coy.css'
+import 'prismjs/themes/prism-coy.css'
 
 
 function CodeBlock(props) {
