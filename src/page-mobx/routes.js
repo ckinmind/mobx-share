@@ -5,7 +5,7 @@ import {HashRouter as Router, Route, Switch} from 'react-router-dom'
 import Aside from './aside';
 
 import P0  from './p0';
-// import P1  from './p1';
+import P1  from './p1';
 import P2  from './p2';
 import P3  from './p3';
 import P4  from './p4';
@@ -21,7 +21,7 @@ import Q3  from './Q/q3';
 import Q4  from './Q/q4';
 
 
-// import D1  from './D/d1';
+import D1  from './D/d1';
 // import D2  from './D/d2';
 
 
@@ -32,7 +32,7 @@ export default  () => (
       <div className="app-content">
         <Switch>
           <Route exact path="/p0" component={P0}/>
-          {/*<Route path="p1" component={P1} />*/}
+          <Route exact path="/p1" component={P1} />
           <Route exact path="/p2" component={P2} />
           <Route exact path="/p3" component={P3} />
           <Route exact path="/p4" component={P4} />

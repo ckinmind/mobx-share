@@ -5,6 +5,9 @@
         "react"
     ],
     "plugins": ["transform-decorators-legacy"],
+    "ignore": [
+      "./src/page-mobx/d3.js"
+    ],
     "env": {
         "development": {
             "presets": [
