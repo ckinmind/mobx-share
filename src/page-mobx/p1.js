@@ -19,13 +19,12 @@ class P1 extends React.Component {
 
 
     drawChart(){
-        let width = 1000;
-        let height = 800;
+        let width = 900;
+        let height = 700;
 
         this.data = {
             'name':'Mobx知识结构',
-            isV: true,
-            'children':
+            '_children':
               [
                   {
                       'name':"API" ,
@@ -65,7 +64,7 @@ class P1 extends React.Component {
                                 "name":"object",
                                 "_children":
                                   [
-                                      {"name":"新增属性更新触发问题"}
+                                      {"name":"extendObservable"}
                                   ]
                             },
                             {
@@ -95,7 +94,9 @@ class P1 extends React.Component {
                             {"name":"1. 关于清理autorun"},
                             {"name":"2. 关于触发视图更新的一种方案"},
                             {"name":"3. 关于store的传递 / 单例模式"},
-                            {"name":"4. 关于细粒度拆分"}
+                            {"name":"4. 关于细粒度拆分"},
+                            {"name":"5. 关于跨组件触发更新的问题"},
+                            {"name":"6. 在async/await中使用runInAction"},
                         ]
                   },
               ]
