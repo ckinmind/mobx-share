@@ -31,24 +31,24 @@ export default  () => (
       <Aside />
       <div className="app-content">
         <Switch>
-          <Route exact path="/ppt/p0" component={P0}/>
-          {/*<Route path="ppt/p1" component={P1} />*/}
-          <Route exact path="/ppt/p2" component={P2} />
-          <Route exact path="/ppt/p3" component={P3} />
-          <Route exact path="/ppt/p4" component={P4} />
-          <Route exact path="/ppt/p5" component={P5} />
-          <Route exact path="/ppt/p6" component={P6} />
-          <Route exact path="/ppt/p7" component={P7} />
-          <Route exact path="/ppt/p8" component={P8} />
-          <Route exact path="/ppt/p9" component={P9} />
+          <Route exact path="/p0" component={P0}/>
+          {/*<Route path="p1" component={P1} />*/}
+          <Route exact path="/p2" component={P2} />
+          <Route exact path="/p3" component={P3} />
+          <Route exact path="/p4" component={P4} />
+          <Route exact path="/p5" component={P5} />
+          <Route exact path="/p6" component={P6} />
+          <Route exact path="/p7" component={P7} />
+          <Route exact path="/p8" component={P8} />
+          <Route exact path="/p9" component={P9} />
 
-          <Route exact path="/ppt/q1" component={Q1} />
-          <Route exact path="/ppt/q2" component={Q2} />
-          <Route exact path="/ppt/q3" component={Q3} />
-          <Route exact path="/ppt/q4" component={Q4} />
+          <Route exact path="/q1" component={Q1} />
+          <Route exact path="/q2" component={Q2} />
+          <Route exact path="/q3" component={Q3} />
+          <Route exact path="/q4" component={Q4} />
 
-          {/*<Route path="ppt/d1" component={D1} />*/}
-          {/*<Route path="ppt/d2" component={D2} />*/}
+          {/*<Route path="d1" component={D1} />*/}
+          {/*<Route path="d2" component={D2} />*/}
         </Switch>
       </div>
     </div>

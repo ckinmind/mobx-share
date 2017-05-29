@@ -1,9 +1,0 @@
-[
-{"name":"Apple","size":9,"imports":["Banana","Enter","Golf"]},
-{"name":"Banana","size":1,"imports":["Golf"]},
-{"name":"Color","size":1,"imports":["Enter"]},
-{"name":"Define","size":1,"imports":["Front"]},
-{"name":"Enter","size":1,"imports":["Apple"]},
-{"name":"Front","size":1,"imports":["Enter"]},
-{"name":"Golf","size":1,"imports":["Banana"]}
-]
