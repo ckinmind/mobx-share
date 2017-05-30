@@ -14,15 +14,13 @@ import P6  from './p6';
 import P7  from './p7';
 import P8  from './p8';
 import P9  from './p9';
+import P10  from './p10';
 
 import Q1  from './Q/q1';
 import Q2  from './Q/q2';
 import Q3  from './Q/q3';
 import Q4  from './Q/q4';
 
-
-import D1  from './D/d1';
-// import D2  from './D/d2';
 
 
 export default  () => (
@@ -41,14 +39,12 @@ export default  () => (
           <Route exact path="/p7" component={P7} />
           <Route exact path="/p8" component={P8} />
           <Route exact path="/p9" component={P9} />
+          <Route exact path="/p10" component={P10} />
 
           <Route exact path="/q1" component={Q1} />
           <Route exact path="/q2" component={Q2} />
           <Route exact path="/q3" component={Q3} />
           <Route exact path="/q4" component={Q4} />
-
-          {/*<Route path="d1" component={D1} />*/}
-          {/*<Route path="d2" component={D2} />*/}
         </Switch>
       </div>
     </div>

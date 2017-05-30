@@ -1,17 +1,6 @@
 import React from 'react'
 import d3 from './d3'
-//import d3 from 'd3'
 import './style/p1.styl'
-
-
-let info = `
-
-\`\`\`js
-123
-\`\`\`
-
-
-`;
 
 
 class P1 extends React.Component {
@@ -268,7 +257,6 @@ class P1 extends React.Component {
               <h1 style={{textAlign: 'center'}}>Mobx知识结构</h1>
               <div id="p1">
               </div>
-              {/*<Markdown source={info} />*/}
           </div>
         );
     }

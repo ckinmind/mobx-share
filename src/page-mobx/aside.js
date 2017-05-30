@@ -16,6 +16,8 @@ class Aside extends React.Component {
           <NavLink to="/p2"  activeClassName="active">autorun / when</NavLink>
           <NavLink to="/p3"  activeClassName="active">@computed</NavLink>
           <NavLink to="/p9"  activeClassName="active">intercept & observe</NavLink>
+          <NavLink to="/p10" activeClassName="active">action / runInAction</NavLink>
+
           <NavLink to="/p7"  activeClassName="active">Observer</NavLink>
           <NavLink to="/p8"  activeClassName="active">Provider and inject</NavLink>
         </nav>

@@ -2,7 +2,7 @@ import React from 'react'
 import {observable, action, intercept, observe} from 'mobx'
 import {observer, componentWillReact} from 'mobx-react'
 import Markdown from '../markdown'
-import { Table, Input, notification,Switch} from 'antd';
+import { Table, Input, notification, Switch} from 'antd';
 
 let info = `
 参考资料：[Intercept & Observe](http://cn.mobx.js.org/refguide/observe.html)
@@ -134,6 +134,7 @@ class P9 extends React.Component {
               <Switch defaultChecked={false}  onChange={() => this.showResult = !this.showResult}/>
               <h1 style={{textAlign: 'center'}}>intercept & observe(注意和 observer/ Observer的区别)</h1>
               <Markdown source={info} />
+
               <div style={{width: '400px',height:'400px'}}>
                   <Input placeholder="请输入颜色值" onPressEnter={this.handleEnter}/>
                   <div style={{marginTop:'30px',height:'400px',width:'400px',backgroundColor: this.style.color}}></div>
