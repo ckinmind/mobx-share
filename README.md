@@ -15,28 +15,30 @@
 ## 内容说明
 - API
   - mobx
-        - `@observable`
-        - `@action`
-        - `autorun / when / reaction`
-        - `@computed`
-        - `intercept & observe`
-        - 工具API: `extendObservable, toJS, isObservable`
+    - `@observable`
+    - `@action`
+    - `autorun / when / reaction`
+    - `@computed`
+    - `intercept & observe`
+    - 工具API: `extendObservable, toJS, isObservable`
   - mobx-react
-        - `@observer`
-        - `Observer`
-        - `Provider / inject`
-        - `componentWillReact`
-        - `PropTypes`
+    - `@observer`
+    - `Observer`
+    - `Provider / inject`
+    - `componentWillReact`
+    - `PropTypes`
+
 - Observable类型
   - object
-        - extendObservable
+    - extendObservable
   - array
-        - clear/replace/remove方法
-        - slice/ toJS方法
-        - arrays更新触发
+    - clear/replace/remove方法
+    - slice/ toJS方法
+    - arrays更新触发
   - maps
-        - 两种定义的差别
-        - 和ES6map的区别
+    - 两种定义的差别
+    - 和ES6map的区别
+    
 - 问题
   - 1. 关于清理autorun
   - 2. 关于触发视图更新的一种方案
