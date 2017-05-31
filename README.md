@@ -1,6 +1,6 @@
 # mobx-share
 
-一个关于mobx的研究和分享演示, 在线访问[https://ckinmind.github.io/mobx-share](https://ckinmind.github.io/mobx-share)
+一个关于mobx的研究和分享演示, 在线访问 [https://ckinmind.github.io/mobx-share](https://ckinmind.github.io/mobx-share)
 
 
 ## 技术栈
@@ -11,9 +11,10 @@
 
 ## 项目说明
 - 本项目是关于mobx的研究, 以ppt的形式展示mobx的各个api以及会遇到的问题
+- 项目中的markdown使用的是 `prismjs` 和 `react-markdown`
 
 ## 内容说明
-- API
+- **API**
   - mobx
     - `@observable`
     - `@action`
@@ -28,7 +29,7 @@
     - `componentWillReact`
     - `PropTypes`
 
-- Observable类型
+- **Observable类型**
   - object
     - extendObservable
   - array
@@ -38,8 +39,8 @@
   - maps
     - 两种定义的差别
     - 和ES6map的区别
-    
-- 问题
+
+- **问题**
   - 1. 关于清理autorun
   - 2. 关于触发视图更新的一种方案
   - 3. 关于store的传递 / 单例模式
