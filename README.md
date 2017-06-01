@@ -1,5 +1,5 @@
 # mobx-share
-
+![mobx-share](https://raw.githubusercontent.com/ckinmind/mobx-share/master/src/image/demo.gif)
 一个关于mobx的研究和分享演示, 在线访问 [https://ckinmind.github.io/mobx-share](https://ckinmind.github.io/mobx-share)
 
 
